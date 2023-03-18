@@ -36,8 +36,8 @@ foreach (var product in ListaProductos){
     Console.WriteLine($"  {product.Id}  {product.Stock}    {product.Nombre} / {product.Descripcion} / ${product.Precio}");
 }
 
-Console.WriteLine()
+Console.WriteLine();
 Console.WriteLine("-------------------------------------------------------------------------");
 Console.WriteLine("         GRACIAS POR PREFERIRNOS QUE TENGA UN EXCELENTE DIA :D           ");
 Console.WriteLine("-------------------------------------------------------------------------");
-Console.WriteLine()
+Console.WriteLine();
