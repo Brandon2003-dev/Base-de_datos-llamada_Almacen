@@ -1,6 +1,6 @@
 ﻿using Actividad_S8_Almacen_de_productos.Models;
 
-Console.WriteLine()
+Console.WriteLine();
 Console.WriteLine("           ******************************************************************       ");
 Console.WriteLine("             BIENVENIDO NUEVAMENTE A SU ALMACEN SERA UN PLACER ATENDERLO :D         ");
 Console.WriteLine("           ******************************************************************       ");
