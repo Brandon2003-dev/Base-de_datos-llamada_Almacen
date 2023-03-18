@@ -7,11 +7,11 @@ Console.WriteLine("           **************************************************
 Console.WriteLine();
 
 AlmacenContext db = new AlmacenContext();
-Productos productos = new Productos();
+Producto producto = new Producto();
 
 Console.WriteLine();
 
-Console.Write("- Nombre de producto ---> ");
+Console.Write("- Nombre de el producto ---> ");
 producto.Nombre = Console.ReadLine();
 Console.Write("- Descripción del producto ---> ");
 producto.Descripcion = Console.ReadLine();
@@ -20,17 +20,17 @@ producto.Precio = Convert.ToDecimal(Console.ReadLine());
 Console.Write("- Cantidad de productos en stock ---> ");
 producto.Stock = Convert.ToInt32(Console.ReadLine());
 
-db.Productos.Add(producto);
+db.Producto.Add(producto);
 db.SaveChanges();
 
-Console.WriteLine("  Productos ya registrados:");
+Console.WriteLine("  El producto se registro con exito:");
 Console.WriteLine("-----------------------------------------");
 Console.WriteLine(" Id Cantidad. Productos Descripcion Precio ");
 Console.WriteLine("-----------------------------------------");
 
 Console.WriteLine();
 
-var ListaProductos = db.Productos.ToList();
+var ListaProductos = db.Producto.ToList();
 foreach (var product in ListaProductos){
 
     Console.WriteLine($"  {product.Id}  {product.Stock}    {product.Nombre} / {product.Descripcion} / ${product.Precio}");
