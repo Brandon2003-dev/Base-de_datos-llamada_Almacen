@@ -2,7 +2,7 @@
 
 Console.WriteLine()
 Console.WriteLine("           ******************************************************************       ");
-Console.WriteLine("             BIENVENIDO NUEVAMENTE A SU ALMACEN SERA UN PLACER ATENDERLO :D     ");
+Console.WriteLine("             BIENVENIDO NUEVAMENTE A SU ALMACEN SERA UN PLACER ATENDERLO :D         ");
 Console.WriteLine("           ******************************************************************       ");
 Console.WriteLine();
 
@@ -23,10 +23,10 @@ producto.Stock = Convert.ToInt32(Console.ReadLine());
 db.Producto.Add(producto);
 db.SaveChanges();
 
-Console.WriteLine("  El producto se registro con exito:");
-Console.WriteLine("-----------------------------------------");
+Console.WriteLine("      El producto se registro con exito   ");
+Console.WriteLine("-------------------------------------------");
 Console.WriteLine(" Id Cantidad. Productos Descripcion Precio ");
-Console.WriteLine("-----------------------------------------");
+Console.WriteLine("-------------------------------------------");
 
 Console.WriteLine();
 
@@ -38,6 +38,6 @@ foreach (var product in ListaProductos){
 
 Console.WriteLine()
 Console.WriteLine("-------------------------------------------------------------------------");
-Console.WriteLine("         GRACIAS POR PREFERIRNOS QUE TENGA UN EXCELENTE DIA :D          ");
+Console.WriteLine("         GRACIAS POR PREFERIRNOS QUE TENGA UN EXCELENTE DIA :D           ");
 Console.WriteLine("-------------------------------------------------------------------------");
 Console.WriteLine()
