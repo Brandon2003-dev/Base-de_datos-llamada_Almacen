@@ -2,7 +2,7 @@
 
 Console.WriteLine()
 Console.WriteLine("           ******************************************************************       ");
-Console.WriteLine("             BIENVENIDO/AS NUEVAMENTE A SU <ALMACEN> SERA UN PLACER ATENDERLO      ");
+Console.WriteLine("             BIENVENIDO NUEVAMENTE A SU ALMACEN SERA UN PLACER ATENDERLO :D     ");
 Console.WriteLine("           ******************************************************************       ");
 Console.WriteLine();
 
